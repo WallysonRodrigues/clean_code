@@ -1,10 +1,10 @@
 import 'dart:convert';
 
-import '../../../../core/error/exception.dart';
-import 'number_trivia_remote_data_source.dart';
 import 'package:http/http.dart' as http;
 
+import '../../../../core/error/exception.dart';
 import '../models/number_trivia_model.dart';
+import 'number_trivia_remote_data_source.dart';
 
 class NumberTriviaRemoteDataSourceImpl implements NumberTriviaRemoteDataSource {
   final http.Client client;
